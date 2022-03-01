@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,46 +17,96 @@
             <h2>Dashboard</h2>
             <div class="options">
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li><img src="./Assets/home.svg" alt="icon">Home</li>
+                    <li><img src="./Assets/profile.svg" alt="icon">Profile</li>
+                    <li><img src="./Assets/message.svg" alt="icon">Messages</li>
+                    <li><img src="./Assets/history.svg" alt="icon">History</li>
+                    <li><img src="./Assets/tasks.svg" alt="icon">Tasks</li>
+                    <li><img src="./Assets/communities.svg" alt="icon">Communities</li>
                 </ul>
             </div>
             <div class="settings">
                 <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li><img src="./Assets/settings.svg" alt="icon">Settings</li>
+                    <li><img src="./Assets/support.svg" alt="icon">Support</li>
+                    <li><img src="./Assets/privacy.svg" alt="icon">Privacy</li>
                 </ul>
             </div>
         </div>
         <div class="content">
             <header>
-                <form>
-                    <button type="submit"><img src="" alt=""></button>
-                    <input type="search" name="" id="">
+                <form action="some script" method="get">
+                    <button type="submit"><img src="./Assets/search.png" alt="search button"></button>
+                    <input type="search" name="search" id="search">
                 </form>
-                <img src="" alt="" class="notifications">
+                <img src="./Assets/notifications.png" alt="notifications">
                 <p>Profile Name</p>
-            </header>
             <div class="actions">
                 <div class="greetings">
                     <p>Hi there,</p>
                     <p>Profile Name</p>
                 </div>
-                <form action="">
+                <form action="some script" method="get">
                     <button>New</button>
                     <button>Upload</button>
                     <button>Share</button>
                 </form>
             </div>
+            </header>
             <div class="panel">
-                <div class="projects"></div>
-                <div class="announcements"></div>
-                <div class="trending"></div>
+                <div class="projects">
+                    <div class="card">
+                        <h4>Project name</h4>
+                        <p>Lorem ipsum, dolor sit 
+                            amet consectetur adipisicing elit. Quidem aperiam debitis 
+                            perspiciatis voluptatibus repellat sint corporis fuga sunt 
+                            dolorem itaque, officia at non. Dolores in nemo doloribus 
+                            reiciendis impedit esse!</p>
+                        <div class="card-btns">
+                            <img src="" alt="" class="icon">
+                            <img src="" alt="" class="icon">
+                            <img src="" alt="" class="icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="announcements">
+                    <div class="card">
+                        <h4>Title</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti placeat quis dolorem fuga doloremque, repudiandae 
+                            voluptatem omnis numquam quisquam tenetur repellat laboriosam 
+                            quos veniam ratione perspiciatis est ipsam natus quas?
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h4>Title</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Numquam unde eveniet dolor ullam placeat optio expedita ex 
+                            similique sunt? Temporibus natus reiciendis consectetur ut 
+                            odit numquam deserunt porro vitae cum!
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h4>Title</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Debitis distinctio ratione neque! Dolor, sunt. Asperiores 
+                            blanditiis facilis, placeat porro quasi laborum nihil 
+                            voluptate error fuga repellendus. Maiores impedit repellat 
+                            perspiciatis!
+                        </p>
+                    </div>
+                </div>
+                <div class="trending">
+                    <img src="" alt="" class="logo">
+                    <h5>@Name</h5>
+                    <p>Some text</p>
+                    <img src="" alt="" class="logo">
+                    <h5>@Name</h5>
+                    <p>Some text</p>
+                    <img src="" alt="" class="logo">
+                    <h5>@Name</h5>
+                    <p>Some text</p>
+                </div>
             </div>
         </div>
     </main>
